@@ -1,0 +1,58 @@
+body{
+    background-image: url(kucing\ putih.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+h1{
+    
+    font-family: 'Great Vibes', cursive;
+    color: #aedd02;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #ffb922;
+    background: #6087b4;
+    color: #f3fd63;
+    box-shadow: #073b3f;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #ffb922;
+    background: #6087b4;
+    color: #f3fd63;
+    box-shadow: #073b3f;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+
+}
+
+.container {
+    position: relative;
+    height: 10vh;
+  }
+  
+  .tombol {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #00c3ff;
+    color: #ffd900;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .tombol:hover {
+    background-color: #ccc;
+  }
+  

@@ -1,0 +1,28 @@
+form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    line-height: 0.5;
+  }
+
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h1 {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .tombol {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #00b6ee;
+    color: #ffd900;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .tombol:hover {
+    background-color: #ccc;
+  }

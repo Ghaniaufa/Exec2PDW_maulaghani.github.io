@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Apa Data kucing mu?</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body class="bg-dark">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 mt-5 bg-light rounded">
+        <h1 class="text-center font-weight-bold text-primary">Isi Data Kucing mu</h1>
+        <hr class="bg-light">
+        <h5 class="text-center text-success"></h5>
+        <div class="container">
+          <div class="header">
+            <center><h3>Data Kucing Mu</h3></center>
+          </div>
+          <form action="">
+            <label for="nama">Nama Anda:</label><br>
+            <input type="text" placeholder="Nama anda" id="nama"><br><br>
+            <label for="kucing">Nama Kucing Anda:</label><br>
+            <input type="text" placeholder="Nama Kucing Anda" id="kucing"><br>
+            <p><i class="fas fa-paw"></i> Tipe Kucing Anda:</p>
+            <input type="radio" name="tipe" id="Persia" value="Persia">
+            <label for="Persia">Persia</label> <br>
+            <input type="radio" name="tipe" id="Anggora" value="Anggora">
+            <label for="Anggora">Anggora</label> <br>
+            <input type="radio" name="tipe" id="BritishShortHair" value="British Short Hair">
+            <label for="BritishShortHair">British Short Hair</label><br>
+            <input type="radio" name="tipe" id="Sphinx" value="Sphinx">
+            <label for="Sphinx">Sphinx</label><br><br>
+            <label for="alamat">Alamat</label><br>
+            <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+
+            <label for="Karakter">Karakter Kucing :</label><br>
+            <select name="Karakter" id="Karakter">
+              <option value="Happy">Happy</option>
+              <option value="Galak">Galak</option>
+              <option value="Usil">Usil</option>
+              <option value="Imut">Imut</option>
+            </select><br><br>
+            <label for="tanggal">Tanggal</label><br>
+            <input type="text" placeholder="Tulis Tanggal" name="tanggal" id="tanggal" cols="30" rows="1"><br><br>
+
+            <button type="button" onclick="kirimData()">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
